@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: red;
+    width: 100%;
+}
+button{
+    background-color: black;
+    float: right;
+    margin: 1%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+button a{
+    font-size:20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+}
+#b1{
+    width: 11%;
+}
+#b2{
+    width: 10%;
+}
+button a{
+    color: white;
+    font-size: 20px;
+}
+nav{
+    float: right;
+    background-color: red;
+    width: 100%;
+}
+nav a{
+    float: right;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10%;
+}
+.formulario{
+    width: 60%;
+    margin: 3% 20%;
+}
+.contenedor{
+    float: left;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    width:50%;
+    
+}
+h1{
+    text-align: center;
+}
+.boxes{
+    width: 80%;
+    height: 10px;
+    margin: 0% 2.5% 0% 4%;
+    border-radius: 40px 0px 40px 0px;
+    padding: 3%;
+    
+}
+.titulos{
+    margin: 2.5% 10% 0% 10%;
+    font-size: larger;
+    font-weight: bold;
+}
+.check{
+    margin: 4.5% 2.5% 3.2% 2.5%;
+}
+#botones{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    width: 100%;
+    float: left;
+}
+#enviar{
+    background-color:red;
+    color: white;
+    font-size: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 8px;
+    width: 20%;
+    margin: 3% 10% 0% 22%;
+}
+#reestablecer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 8px;
+    width: 20%;
+   
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    margin-top: 35%;
+}
