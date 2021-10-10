@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <title>Crear Pelicula</title>
+</head>
+<body>
+    <div id="general"><!--WRAP-->
+        <header id="header"><!--CABECERA-->
+            <div id="divLogo">
+                <img id="imgLogo" src="img/LOGO CINEMARK.jpg">
+            </div>
+            <div id="divOpcionesHeader">
+                <a class="opcionesHeader" href="#">Menú</a>
+                <a class="opcionesHeader" href="#">Cerrar sesión</a>
+            </div>
+        </header>
+        <div id="encabezadoPag"><!--TITULO-->
+            <h1>Nueva Película</h1>
+        </div>
+        <section id="contenido"><!--INCLUYE TODO EL CONTENIDO-->
+            <form id="form_crear">
+                <div id="panelIzq">
+                    <div id="wrapPanelIzq">
+                        <label for="nombre">Nombre Película: </label>
+                        <input type="text" id="nombre">
+                        <br><br>
+                        <label for="clasificacion">Casificación: </label>
+                        <select class="combo" id="clasificacion">
+                            <option value="Select">Select....</option>
+                            <option value="todos">Todos</option>
+                            <option value="7">7+</option>
+                            <option value="13">13+</option>
+                            <option value="16">16+</option>
+                            <option value="18">18+</option>
+                        </select>
+                        <br><br>
+                        <label for="descripcion">Descripción: </label>
+                        <textarea id="descripcion"></textarea>
+                        <br><br>
+                        <label for="switch-label">Habilitar en cartelera</label>
+                        <div class="switch-button">
+                            <!-- Checkbox -->
+                            <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                            <!-- Botón -->
+                            <label for="switch-label" class="switch-button__label"></label>
+                        </div>
+                    </div>
+                </div>
+                <div id="panelDer">
+                    <div id="wrapPanelIzq">
+                        <img id="imagenPreview" src="img/rubias.jpg">
+                        <input type="file" name="archivosubido">
+                        <br><br>
+                        <a href="pelicula.html"><button class="btnFormulario" type="button" value="enviar">Cancelar</button></a>
+                        <button class="btnFormulario" type="submit" value="enviar">Crear</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <div class="clearfix"></div>
+        <footer id="footer">
+            <h6>Todos los derechos reservados &copy;</h6>
+        </footer>
+    </div>
+
+</body>
+</html>

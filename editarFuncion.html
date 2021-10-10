@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles3.css">
+    <title>Modificar Funcion</title>
+</head>
+<body>
+    <div id="general"><!--WRAP-->
+        <header id="header"><!--CABECERA-->
+            <div id="divLogo">
+                <img id="imgLogo" src="img/LOGO CINEMARK.jpg">
+            </div>
+            <div id="divOpcionesHeader">
+                <a class="opcionesHeader" href="#">Menú</a>
+                <a class="opcionesHeader" href="#">Cerrar sesión</a>
+            </div>
+        </header>
+        <div id="encabezadoPag"><!--TITULO-->
+            <h1>Modificar Función</h1>
+        </div>
+        <section id="contenido"><!--INCLUYE TODO EL CONTENIDO-->
+            <form id="form_crear">
+                <div id="wrapCentral">
+                    <label for="nombre">Nombre Película: </label>
+                    <select class="combo" id="nombre">
+                        <option value="Select">Select....</option>
+                        <option value="rubias">Donde estan las rubias</option>
+                        <option value="nemo">Buscando a Nemo</option>
+                        <option value="avengers">Avengers infinity war</option>
+                    </select>
+                    <br><br>
+                    <label for="fecha">Fecha:  </label>
+                    <input type="date" id="fecha">
+                    <br><br>
+                    <label for="hora">Hora:  </label>
+                    <input type="time" id="hora">
+                    <br><br>
+                    <label for="sala">Sala: </label>
+                    <select class="combo" id="sala">
+                        <option value="Select">Select....</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br><br>
+                    <label for="cupo">Cupo Máximo: </label>
+                    <input type="text" id="cupo">
+                    <br><br>
+                    <br><br>
+                    <a href="funciones.html"><button class="btnFormulario" type="button" value="enviar">Cancelar</button></a>
+                    <button class="btnFormulario" type="submit" value="enviar">Modificar</button>
+                </div>
+            
+                
+                        
+            </form>
+        </section>
+        <div class="clearfix"></div>
+        <footer id="footer">
+            <h6>Todos los derechos reservados &copy;</h6>
+        </footer>
+    </div>
+
+</body>
+</html>

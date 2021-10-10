@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles/styles4.css">
+    <script src="validaciones.js"></script>
+</head>
+<body>
+    <button id="b2"><a href="#">Registrarse</a></button>
+    <button id="b1"><a href="#">Iniciar sesión</a></button>
+    <div class="contenedor1">
+        <header>
+            <a href="#"><img src="LOGO CINEMARK.jpg" alt=""></a>
+        </header>
+        <div id="menu">
+            <nav>
+                <a href="#">Membresías</a>
+                <a href="#">Teatros</a>
+                <a href="#">Carteleras</a>
+                <a href="#">Inicio</a>
+            </nav>
+        </div>
+    </div>
+    <form action="" method="GET" class="formulario" id="formRegistro">
+        <div>
+            <p><h1>Iniciar Sesión</h1></p>
+
+        </div>
+        <div class="contenedor">
+                    <p class="titulos">Usuario</p><input type="text" name="usuario" id="usuario" required="true" class="boxes">
+        </div>
+        <div class="contenedor">
+            <p class="titulos"> Contraseña</p><input type="password" name="password" id="password" required="true" class="boxes">
+        </div>
+        
+        <div id="botones">
+            <input type="submit" name="enviar" id="enviar"  onclick="validarLogin()">
+            <input type="reset" name="limpiar" id="reestablecer">
+            
+        </div>
+    </form>
+    <footer>
+        <!--
+        <div id="redes">
+            <img src="facebook.png" alt="">
+        </div>-->
+        <h1>Página diseñada por el equipo 6 MISIONTIC</h1>
+        <h2>Todos los derechos reservados &#9400</h2>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Pelicula</title>
+</head>
+<body>
+    <div id="general"><!--WRAP-->
+        <header id="header"><!--CABECERA-->
+            <div id="divLogo">
+                <img id="imgLogo" src="img/LOGO CINEMARK.jpg">
+            </div>
+            <div id="divOpcionesHeader">
+                <a class="opcionesHeader" href="#">Menú</a>
+                <a class="opcionesHeader" href="#">Cerrar sesión</a>
+            </div>
+        </header>
+        <div id="encabezadoPag"><!--TITULO-->
+            <h1>PELICULAS</h1>
+        </div>
+        <section id="contenido"><!--INCLUYE TODO EL CONTENIDO-->
+            <div id="contenedorBotonesTabla"><!--BOTONES-->
+                <a href="crearPelicula.html"> 
+                    <div class="botonTabla">
+                        <h6>Crear</h6>
+                    </div>
+                </a>
+                <a href="editarPelicula.html"> 
+                    <div class="botonTabla">
+                        <h6>Modificar</h6>
+                    </div>
+                </a>
+                <a href="#"> 
+                    <div class="botonTabla">
+                        <h6>Eliminar</h6>
+                    </div>
+                </a>
+            </div>
+            
+            <div  id="contenedorBusquedaTabla"><!--BUSQUEDA-->
+                <input type="text" name="buscarPelicula" placeholder="Search">
+                <img src="img/loupe.png">
+            </div>
+            <div class="clearfix"></div><!--LIMPIAR FLOTADOS-->
+            <div id="contenedorTabla"><!--TABLA-->
+                <table class="tabla">
+                    <thead>
+                    <tr> <!--Primera fila-->
+                        <th>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </th>
+                    
+                        <th>
+                            Nombre Película
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>Prueba</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>Prueba2</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                <input type="checkbox">
+                            </form>
+                        </td>
+                        <td>Prueba3</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    </tr>
+                </table>
+            </div>    
+        </section>
+        <footer id="footer">
+            <h6>Todos los derechos reservados &copy;</h6>
+        </footer>
+    </div>
+
+</body>
+</html>
