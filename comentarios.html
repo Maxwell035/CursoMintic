@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="styles/estilosCabecera.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="img/LOGO CINEMARK.jpg" alt=""></div>
+        <div class="botones">
+            <button id="b2"><a href="Login.html">Iniciar Sesión</a></button>
+            <button id="b3"><a href="REGISTRO.html">Registrarse</a></button>
+        </div>
+        <div id="Buscar">
+            <input type="text" name="buscar" id="box" placeholder="Buscar">
+            <button type="submit" class="busqueda">
+                <img src="img/loupe.svg" alt="" id="lupa">
+            </button>
+        </div>
+    </header>
+    <nav id="menuPrincipal">
+        <div id="containerMenu">
+            <a href="#">Teatros</a>
+            <a href="#">Cartelera</a>
+            <a href="#">Inicio</a>
+        </div>
+    </nav>
+
+    <section class="cuerpo1">
+        <img src="img/PELICULA-COMENTARIO.jpg" alt="" class="foto">        
+    </section>
+    <div class="boxComentarios">
+        <h2>Sinopsis</h2>
+        <p class="sinopsis">Narra de manera íntima la vida de un hombre bueno, el médico Héctor Abad Gómez, carismático
+            lider social y hombre de familia, un destacado médico y activista por los derechos humanos 
+            en el Medellín polarizado y violento de los años 70.  La historia relata la vida del doctor, 
+            padre de familia preocupado tanto por sus hijos como por los niños de clases menos favorecidas.  
+            En su casa se respiraba la vitalidad y la creatividad características de una educación fundamentada
+            en la tolerancia y el amor, pero la tragedia se asomaba
+        </p>
+        <div class="infoPelicula">
+            <p>Director: Fernando Trueba</p>
+            <p>Género: Drama</p>
+            <p>Actores: Aída Morales, Camila Zárate, Daniela Abad Lombana</p>
+        </div>
+
+        <h2 id="title1">COMENTARIOS</h2>
+        <div id="contComentarios">
+            <form action="">
+                <p class="sugerencias">Para ingresar un comentario, primero debe <a href="Login.html" class="ancla">Iniciar sesión</a>.</p>
+                <textarea name="Comentarios" id="cajaComentarios" col="80"rows="8" placeholder="Ingrese su comentario"></textarea>
+                <div class="botones1">
+                    <button type="submit" class="b5"><a href="#">Enviar</a></button>
+                    <button type="reset" class="b6"><a href="#">Reestablecer</a></button>
+                </div>    
+            </form>
+        </div>
+    </div>
+    <footer>
+        <!--
+        <div id="redes">
+            <img src="facebook.png" alt="">
+        </div>-->
+        <h1 class="pie">Página diseñada por el equipo 6 MISIONTIC</h1>
+        <h2 class="pie">Todos los derechos reservados &#9400</h2>
+    </footer>
+</body>
+</html>

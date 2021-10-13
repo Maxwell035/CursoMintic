@@ -114,3 +114,14 @@ footer{
     width: 100%;
     margin-top: 35%;
 }
+.p1{
+    text-align: center;
+    font-size: 15;
+    
+}
+.p1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15;
+    color: blue;
+}
