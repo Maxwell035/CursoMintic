@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles3.css">
+    <link rel="stylesheet" href="styles/estilosCabecera.css">
     <title>Modificar Funcion</title>
 </head>
 <body>
@@ -14,11 +15,15 @@
                 <img id="imgLogo" src="img/LOGO CINEMARK.jpg">
             </div>
             <div id="divOpcionesHeader">
-                <a class="opcionesHeader" href="#">Menú</a>
-                <a class="opcionesHeader" href="#">Cerrar sesión</a>
+                <a class="opcionesHeader" href="#">Inicio</a>
+                <a class="opcionesHeader" href="#">Carteleras</a>
+                <a href="#" class="opcionesHeader">Teatros</a>
+            </div>
+            <div id="botonCerrar">
+                <button id="b1"><a href="Inicio.html">Cerrar sesión</a></button>
             </div>
         </header>
-        <div id="encabezadoPag"><!--TITULO-->
+        <div id="encabezadoPag1"><!--TITULO-->
             <h1>Modificar Función</h1>
         </div>
         <section id="contenido"><!--INCLUYE TODO EL CONTENIDO-->
@@ -50,10 +55,11 @@
                     <br><br>
                     <label for="cupo">Cupo Máximo: </label>
                     <input type="text" id="cupo">
-                    <br><br>
-                    <br><br>
-                    <a href="funciones.html"><button class="btnFormulario" type="button" value="enviar">Cancelar</button></a>
-                    <button class="btnFormulario" type="submit" value="enviar">Modificar</button>
+                    <div id="botones">
+                        <a href="funciones.html"><button class="btnFormulario1" type="button" value="enviar">Cancelar</button></a>
+                        <button class="btnFormulario2" type="submit" value="enviar">Modificar</button>
+                    </div>
+                    
                 </div>
             
                 
@@ -62,7 +68,8 @@
         </section>
         <div class="clearfix"></div>
         <footer id="footer">
-            <h6>Todos los derechos reservados &copy;</h6>
+            <h1 class="pie">Página diseñada por el equipo 6 MISIONTIC</h1>
+            <h2 class="pie">Todos los derechos reservados &#9400</h2
         </footer>
     </div>
 

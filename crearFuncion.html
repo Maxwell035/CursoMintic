@@ -1,70 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles3.css">
-    <title>Crear Funcion</title>
+    <title>Crear Función</title>
+    <link rel="stylesheet" href="styles/estilosCabecera.css">
 </head>
 <body>
-    <div id="general"><!--WRAP-->
-        <header id="header"><!--CABECERA-->
-            <div id="divLogo">
-                <img id="imgLogo" src="img/LOGO CINEMARK.jpg">
-            </div>
-            <div id="divOpcionesHeader">
-                <a class="opcionesHeader" href="#">Menú</a>
-                <a class="opcionesHeader" href="#">Cerrar sesión</a>
-            </div>
-        </header>
-        <div id="encabezadoPag"><!--TITULO-->
-            <h1>Nueva Función</h1>
+    <header>
+        <div id="logo"><img src="img/LOGO CINEMARK.jpg" alt=""></div>
+        <div class="botones">
+            <button class="b4"><a href="Inicio.html">Cerrar sesión</a></button>
         </div>
-        <section id="contenido"><!--INCLUYE TODO EL CONTENIDO-->
-            <form id="form_crear">
-                <div id="wrapCentral">
-                    <label for="nombre">Nombre Película: </label>
-                    <select class="combo" id="nombre">
-                        <option value="Select">Select....</option>
-                        <option value="rubias">Donde estan las rubias</option>
-                        <option value="nemo">Buscando a Nemo</option>
-                        <option value="avengers">Avengers infinity war</option>
-                    </select>
-                    <br><br>
-                    <label for="fecha">Fecha:  </label>
-                    <input type="date" id="fecha">
-                    <br><br>
-                    <label for="hora">Hora:  </label>
-                    <input type="time" id="hora">
-                    <br><br>
-                    <label for="sala">Sala: </label>
-                    <select class="combo" id="sala">
-                        <option value="Select">Select....</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    <br><br>
-                    <label for="cupo">Cupo Máximo: </label>
-                    <input type="text" id="cupo">
-                    <br><br>
-                    <br><br>
-                    <a href="funciones.html"><button class="btnFormulario" type="button" value="enviar">Cancelar</button></a>
-                    <button class="btnFormulario" type="submit" value="enviar">Crear</button>
-                </div>
-            
-                
-                        
-            </form>
-        </section>
-        <div class="clearfix"></div>
-        <footer id="footer">
-            <h6>Todos los derechos reservados &copy;</h6>
-        </footer>
-    </div>
-
+        <div id="Buscar">
+            <input type="text" name="buscar" id="box" placeholder="Buscar">
+            <button type="submit" class="busqueda">
+                <img src="img/loupe.svg" alt="" id="lupa">
+            </button>
+        </div>
+    </header>
+    <nav id="menuPrincipal">
+        <div id="containerMenu">
+            <a href="#">Teatros</a>
+            <a href="#">Cartelera</a>
+            <a href="#">Inicio</a>
+        </div>
+    </nav>
+    <h1 id="text">Crear Función</h1>
+    <section id="contenido">
+        <form action="" method="get" id="form_crear">
+            <div id="wrapCentral">
+                <label for="nombre">Nombre de película:  </label>
+                <select class="combo" id="nombre">
+                    <option value="Select">Select...</option>
+                    <option value="rubias">Donde están las rubias</option>
+                    <option value="nemo">Buscando a Nemo</option>
+                    <option value="avengers">Avengers: Infinity War</option>
+                </select>
+                <br>
+                <label for="fecha">Fecha:  </label>
+                <input type="date" id="fecha">
+                <br>
+                <label for="hora">Hora:  </label>
+                <input type="time" id="hora">
+                <br>
+                <label for="sala">Sala:  </label>
+                <select class="combo" id="sala">
+                    <option value="Select">Select...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <label for="cupo">Cupo máximo:  </label>
+                <input type="text" id="cupo">
+                <br>
+                <br>
+                <button class="btnFormulario" type="button" value="enviar" id="b7"><a href="funciones.html">Cancelar</a></button>
+                <button class="btnFormulario" type="submit" value="enviar" id="b8"><a href="#">Crear</a> </button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <!--
+        <div id="redes">
+            <img src="facebook.png" alt="">
+        </div>-->
+        <h1 class="pie">Página diseñada por el equipo 6 MISIONTIC</h1>
+        <h2 class="pie">Todos los derechos reservados &#9400</h2>
+    </footer>
 </body>
 </html>
